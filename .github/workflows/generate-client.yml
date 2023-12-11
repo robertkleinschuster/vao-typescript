@@ -35,4 +35,4 @@ jobs:
     - run: git config --global user.name 'CI'
     - run: git config --global user.email 'github-ci@robs.social'
     - run: npm version minor
-    - run: git push
+    - run: git push && git push --tags
