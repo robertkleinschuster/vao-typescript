@@ -2,7 +2,7 @@ name: Generate client
 on:
   push:
     paths:
-      - .github/workflows/generate-client.yml
+      - ".github/workflows/generate-client.yml"
 permissions:
   contents: write
 jobs:
